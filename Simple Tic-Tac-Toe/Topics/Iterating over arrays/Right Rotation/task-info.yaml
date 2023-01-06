@@ -1,0 +1,37 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+    import java.util.Arrays;
+
+    class Main {
+        // implement me
+        private static void rotate(int[] arr, int steps) {
+
+        }
+
+        // do not change code below
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            int[] arr = Arrays.stream(scanner.nextLine().split(" "))
+                    .mapToInt(Integer::parseInt)
+                    .toArray();
+
+            int steps = Integer.parseInt(scanner.nextLine());
+
+            rotate(arr, steps);
+
+            for (int i : arr) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3663#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 06 Jan 2023 09:18:39 UTC"
+record: -1
