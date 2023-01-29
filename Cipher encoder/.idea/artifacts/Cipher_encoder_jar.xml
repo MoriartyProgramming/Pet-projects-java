@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Cipher encoder:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Cipher_encoder_jar</output-path>
+    <root id="archive" name="Cipher encoder.jar">
+      <element id="module-output" name="Cipher encoder" />
+    </root>
+  </artifact>
+</component>
